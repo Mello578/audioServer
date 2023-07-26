@@ -6,7 +6,7 @@
   "license": "ISC",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "debug": "node-debug src/server.ts",
+    "debug": "nodemon src/server.ts --inspect",
     "prepare": "husky install",
     "lint": "eslint src",
     "lint:types": "tsc --noEmit"
