@@ -1,2 +1,1 @@
-# audioServer
-Refactoring audio player
+# Server for audio player

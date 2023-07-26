@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types",
+      "src/types/"
+    ],
+    "lib": ["es2021", "es2017", "es2015", "dom"],
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": false,
+    "module": "commonjs",
+    "outDir": "build",
+    "target": "es2017",
+    "isolatedModules": false,
+    "noEmit": false,
+    "moduleResolution": "node",
+  },
+  "include": ["src",
+    "src/types"
+  ],
+}
