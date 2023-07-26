@@ -14,4 +14,4 @@ let playList = [];
   });
 })();
 
-export const getPlayList = () => (_, res) => res.send(playList);
+export const getPlayList = (_, res) => res.send(playList);
